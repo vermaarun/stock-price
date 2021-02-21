@@ -1,4 +1,4 @@
-**Getting Started**
+# Getting Started
 
 Please follow below steps to get started with stock-price list APIs
 
@@ -10,12 +10,12 @@ Please follow below steps to get started with stock-price list APIs
 6. Migrate Migrations/Models : `python manage.py migrate`
 7. Run server : `python manage.py runserver`
 
-**Consume Date**
+# Consume Date
 1. Put your API KEY(Please, register free account to get API key) in `djangoapi/settings.py` file under `API_KEY` parameter
 2. Re-start server
 3. Open browser and execute : `http://127.0.0.1:8000/consume`
 
-**List Stock Prices**
+# List Stock Prices
 1. Open browser and execute : `http://127.0.0.1:8000/stock-price/`
 
 To filter for any company, you can use query-parameter like this : `http://127.0.0.1:8000/stock-price?comapny=<company-name>`
